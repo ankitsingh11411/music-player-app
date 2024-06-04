@@ -39,7 +39,7 @@ body {
 
 .container {
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  height: 550px;
+  height: 600px;
   width: 500px;
   border-radius: 20px;
   box-shadow: 0 15px 30px rgba(1, 26, 255, 0.5);
