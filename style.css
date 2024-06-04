@@ -38,21 +38,21 @@ body {
 }
 
 .container {
-  background-color: #e7e7e7;
-  height: 500px;
-  width: 400px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  height: 550px;
+  width: 500px;
   border-radius: 20px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 30px rgba(1, 26, 255, 0.5);
   transition: all 0.5s ease;
 }
 
 .container:hover {
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 30px 10px rgb(88, 0, 0);
 }
 
 .player-img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   position: relative;
   top: -50px;
   left: 50px;
@@ -64,11 +64,11 @@ body {
   height: 0;
   width: 0;
   opacity: 0;
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 40px 5px rgba(105, 0, 131, 0.5);
 }
 
 .player-img:hover img {
-  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 30px 5px rgb(88, 0, 0);
 }
 
 .player-img img.active {
@@ -93,7 +93,13 @@ h3 {
 }
 
 .player-progress {
-  background-color: #fff;
+  background: rgb(0, 75, 60);
+  background: linear-gradient(
+    94deg,
+    rgba(0, 75, 60, 0.505800464037123) 0%,
+    rgb(92, 0, 0) 50%,
+    rgba(58, 0, 98, 0.4431554524361949) 100%
+  );
   border-radius: 5px;
   cursor: pointer;
   margin: 40px 20px 35px;
@@ -111,6 +117,7 @@ h3 {
 
 .music-duration {
   position: relative;
+  color: rgb(0, 0, 0);
   top: -25px;
   display: flex;
   justify-content: space-between;
@@ -119,13 +126,13 @@ h3 {
 .player-controls {
   position: relative;
   top: -15px;
-  left: 120px;
+  left: 175px;
   width: 200px;
 }
 
 .fa-solid {
   font-size: 30px;
-  color: #666;
+  color: rgb(70, 0, 0);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
@@ -133,7 +140,7 @@ h3 {
 }
 
 .fa-solid:hover {
-  filter: brightness(40%);
+  filter: invert(100%);
 }
 
 .play-button {
