@@ -26,7 +26,7 @@ const songs = [
     artist: '916 Frosty',
   },
   {
-    path: 'assets/audiofiles/loosescrew.mp3',
+    path: 'assets/audiofiles/lossescrew.mp3',
     displayName: 'Loosescrew',
     cover: 'assets/imagefiles/rrrnd.png',
     artist: 'BONES',

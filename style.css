@@ -32,13 +32,13 @@ body {
   right: 0;
   min-width: 50%;
   min-height: 50%;
-  filter: blur(15px);
-  -webkit-filter: blur(50px);
+  filter: blur(12px);
   transform: scale(1.1);
 }
 
 .container {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(15deg, #073d5c 0%, #2a5e58 100%);
+  background-size: cover;
   height: 600px;
   width: 500px;
   border-radius: 20px;
